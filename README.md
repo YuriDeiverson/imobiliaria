@@ -1,12 +1,54 @@
-# React + Vite
+Projeto Imobiliário Responsivo
+Este projeto é uma interface moderna e responsiva para uma empresa do setor imobiliário, desenvolvido com React, Tailwind CSS e Framer Motion. Ele conta com componentes reutilizáveis como Navbar, Header, About e Projects, oferecendo uma experiência fluida tanto no desktop quanto no mobile.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+✨ Funcionalidades
+Navbar Responsiva: Alterna entre visualização desktop e menu mobile com efeito de overflow controlado.
 
-Currently, two official plugins are available:
+Header Animado: Apresentação principal com chamada à ação e botões para GitHub e LinkedIn.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Seção Sobre: Informações da marca com dados de destaque e botão de ação.
 
-## Expanding the ESLint configuration
+Projetos em Destaque: Carrossel de projetos com navegação dinâmica baseada no tamanho da tela.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🧰 Tecnologias Utilizadas
+React
+
+Tailwind CSS
+
+Framer Motion
+
+JavaScript (ES6+)
+
+📁 Estrutura do Projeto
+css
+Copiar
+Editar
+src/
+├── components/
+│   ├── Navbar.jsx
+│   ├── Header.jsx
+│   ├── About.jsx
+│   └── Projects.jsx
+├── assets/
+│   ├── assets.js (imagens, ícones, e dados dos projetos)
+🚀 Como rodar o projeto
+Clone o repositório:
+
+bash
+Copiar
+Editar
+git clone https://github.com/seu-usuario/seu-repo.git
+cd seu-repo
+Instale as dependências:
+
+bash
+Copiar
+Editar
+npm install
+Inicie o servidor de desenvolvimento:
+
+bash
+Copiar
+Editar
+npm run dev
+O app estará disponível em 
