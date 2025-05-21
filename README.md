@@ -1,54 +1,102 @@
-Projeto Imobiliário Responsivo
-Este projeto é uma interface moderna e responsiva para uma empresa do setor imobiliário, desenvolvido com React, Tailwind CSS e Framer Motion. Ele conta com componentes reutilizáveis como Navbar, Header, About e Projects, oferecendo uma experiência fluida tanto no desktop quanto no mobile.
+🏡 Site Imobiliário Responsivo
 
-✨ Funcionalidades
-Navbar Responsiva: Alterna entre visualização desktop e menu mobile com efeito de overflow controlado.
+Uma interface moderna e responsiva para empresas do setor imobiliário, com foco em performance, usabilidade e animações suaves. Ideal para apresentar projetos, captar leads e transmitir credibilidade.
 
-Header Animado: Apresentação principal com chamada à ação e botões para GitHub e LinkedIn.
+🚀 Começando
 
-Seção Sobre: Informações da marca com dados de destaque e botão de ação.
+Essas instruções permitirão que você obtenha uma cópia do projeto em execução na sua máquina local para fins de desenvolvimento e teste.
 
-Projetos em Destaque: Carrossel de projetos com navegação dinâmica baseada no tamanho da tela.
+Consulte 📦 Implantação para ver como publicar este projeto em produção.
 
-🧰 Tecnologias Utilizadas
-React
+📋 Pré-requisitos
 
-Tailwind CSS
+Antes de iniciar, você precisará ter os seguintes itens instalados:
 
-Framer Motion
+Node.js (versão 16+ recomendada)
 
-JavaScript (ES6+)
+npm ou yarn
 
-📁 Estrutura do Projeto
-css
-Copiar
-Editar
-src/
-├── components/
-│   ├── Navbar.jsx
-│   ├── Header.jsx
-│   ├── About.jsx
-│   └── Projects.jsx
-├── assets/
-│   ├── assets.js (imagens, ícones, e dados dos projetos)
-🚀 Como rodar o projeto
+Git
+
+🔧 Instalação
+
 Clone o repositório:
 
-bash
-Copiar
-Editar
-git clone https://github.com/seu-usuario/seu-repo.git
-cd seu-repo
+git clone https://github.com/seu-usuario/seu-repositorio.git
+cd seu-repositorio
+
 Instale as dependências:
 
-bash
-Copiar
-Editar
 npm install
+# ou
+yarn
+
 Inicie o servidor de desenvolvimento:
 
-bash
-Copiar
-Editar
 npm run dev
-O app estará disponível em 
+# ou
+yarn dev
+
+Acesse o projeto:
+
+Abra o navegador e vá para http://localhost:5173
+
+⚙️ Executando os testes
+
+Ainda não foram implementados testes automatizados neste projeto.
+
+Planeja-se futuramente utilizar:
+
+Jest para testes unitários
+
+React Testing Library para testes de componentes
+
+🔩 Análise de testes de ponta a ponta
+
+Esses testes simulam o uso real do sistema para garantir que tudo funcione como esperado. Futuramente poderão ser realizados com:
+
+npm run test:e2e
+
+⌨️ Testes de estilo de codificação
+
+Você pode configurar o ESLint e Prettier para manter o padrão de estilo:
+
+npm run lint
+
+📦 Implantação
+
+Este projeto pode ser facilmente implantado em:
+
+Vercel
+
+Netlify
+
+GitHub Pages (com adaptações)
+
+Servidores com Node.js e Nginx
+
+💪 Construído com
+
+React — Biblioteca JavaScript para interfaces de usuário
+
+Tailwind CSS — Framework CSS utilitário
+
+Framer Motion — Animações para React
+
+Vite — Empacotador de projetos para desenvolvimento rápido
+
+🔇 Colaborando
+
+Contribuições são bem-vindas!
+
+Consulte o arquivo COLABORACAO.md para obter detalhes sobre o nosso código de conduta e o processo de pull requests.
+
+📌 Versão
+
+Este projeto segue o padrão de versionamento SemVer. Veja as tags deste repositório para mais informações.
+
+🏱 Expressões de gratidão
+
+Conte a outras pessoas sobre este projeto 📢
+
+Deixe uma estrela ⭐ no GitHub!
